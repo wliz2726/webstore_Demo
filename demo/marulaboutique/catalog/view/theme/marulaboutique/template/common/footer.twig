@@ -1,0 +1,99 @@
+<footer class="container-fluid">
+  <div class="container">
+    <div id= "left" class="row"> 
+      
+
+      <div class="col-sm-3">
+        <div class="logo-footer">
+          <a href="{{ home }}">
+            <img src="image/catalog/mb_home_page/MB-Home-logo-footer.png" class="img-responsive" />
+          </a>
+        </div><br>
+        <h5>{{ text_enter }}</h5>
+        <h5>{{ text_enter }}</h5>
+        <div class="move-right" >
+          <span> 3612 Franconia,<br>Santo Domingo Este<br>República Dominicana</span> 
+        </div>
+      </div>
+
+      
+
+      <div class="col-sm-3">
+      <div><h5>{{ text_assistance}}</h5></div>
+        <ul class="list-unstyled">
+          <!--<li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>-->
+          
+          <!--<li><a href="{{ voucher }}">{{ text_voucher }}</a></li>-->
+          <!--<li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>-->
+          <li><a target="_blank" href="https://api.whatsapp.com/send?phone=829 276-9197" title="whatsapp">
+            <div id= "fa-size"><span class="fa fa-whatsapp" style="font-size: 20px;color: #6DBA44;"></span>&nbsp;+1(829) 276-9197<span></span></div>
+          </a></li>
+          <li>
+            <div id= "fa-size"><span> 809-591-5050</span></div>
+          </li>
+          <li id="fa-size-mail"><a href="mailto:einfo@webstore.do" title="mailto">
+            <div><span class="fa fa-envelope"></span> <span>&nbsp; info@webstore.do</span></div></a></li>
+          <!--<li><a href="{{ special }}">{{ text_special }}</a></li>-->
+          <li>
+            <div id="fa-size-sn">
+              <a target="_blank" data-platform="facebook" href="https://www.facebook.com/" title="Facebook"><span class="fa fa-facebook"> &nbsp; </span></a>
+              <a target="_blank" data-platform="instagram" href="https://www.instagram.com/" title="Instagram"><span class="fa fa-instagram"> &nbsp; </span></a>
+              <a target="_blank" data-platform="twitter" href="https://www.twitter.com/" title="Twitter"><span class="fa fa-twitter"> &nbsp; </span></a>
+            </div>
+          </li>
+           <h5>{{ text_enter }}</h5>
+        </ul>
+      </div>
+
+
+      <div class="col-sm-3">
+        <ul class="list-unstyled">
+          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+          <li><a href="http://www.w3.org">Proyectos Realizados</a></li>
+          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+          <li><a href="{{ account }}">{{ text_account }}</a></li>
+          {% if logged %}
+            <li><a href="{{ logout }}">{{ text_logout }}</a></li>
+          {% endif %}
+          <h5>{{ text_enter }}</h5>
+        </ul>
+      </div>
+
+      
+
+      <div  class="col-sm-3">
+        <ul class="list-unstyled">
+         {% for information in informations %}
+          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h5>{{ text_enter }}</h5>
+
+        <h5>{{ text_date }}</h5>
+        <ul id= "date" class="list-unstyled">
+          <li><h5>{{ text_weekday }}</h5></li>
+          <li><h5>{{ text_saturdays }}</h5></li>
+          <li><h5>{{ txt_holidays }}</h5></li>
+          
+
+          <!--<li><a href="{{ account }}">{{ text_account }}</a></li>
+          <li><a href="{{ order }}">{{ text_order }}</a></li>
+          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>-->
+        </ul>
+      </div>
+
+    </div>
+    <!--<hr>-->
+    <p class="powered-center">{{ powered }}</p>
+  </div>
+</footer>
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body></html>

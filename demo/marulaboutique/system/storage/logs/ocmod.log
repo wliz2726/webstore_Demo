@@ -1,0 +1,1038 @@
+2020-08-11 17:25:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-11 17:25:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-11 17:35:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-11 17:35:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-11 18:03:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 11:40:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 11:56:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 11:57:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 15:49:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 15:54:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 16:15:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 16:15:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-08-12 16:36:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
+2020-08-12 17:17:04 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
+2020-08-12 17:21:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
+2020-08-15 4:59:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
+2020-08-15 5:02:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
+2020-08-15 5:02:55 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Color Swatch
+
+FILE: admin/controller/catalog/product.php
+CODE: public function add() {
+LINE: 58
+CODE: // Downloads
+LINE: 1203
+
+FILE: admin/model/catalog/product.php
+CODE: public function addProduct($data) {
+LINE: 39
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout
+LINE: 340
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <li><a href="#tab-design" data-toggle="tab">{{ tab_design }}</a></li>
+LINE: 41
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 1213
+CODE: <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+LINE: 1466
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 19
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 399
+CODE: $data['products'][] = array(
+LINE: 477
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: $product_option_value_data[] = array(
+LINE: 349
+CODE: public function getRecurringDescription() {
+LINE: 715
+
+FILE: catalog/model/catalog/product.php
+CODE: public function updateViewed($product_id) {
+LINE: 12
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: if option.type == 'select'
+LINE: 192
+CODE: if option.type == 'select'
+LINE: 192
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 338
+
+FILE: catalog/controller/product/category.php
+CODE: foreach ($results as $result) {
+LINE: 171
+CODE: $data['products'][] = array(
+LINE: 256
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 130
+
+FILE: catalog/controller/common/cart.php
+CODE: $option_data[] = array(
+LINE: 81
+CODE: $option_data[] = array(
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: for product in products
+LINE: 14
+CODE: <img src="{{ product.thumb }}"
+LINE: 16
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: foreach ($products as $product_id) {
+LINE: 25
+CODE: $data['products'][] = array(
+LINE: 112
+
+FILE: catalog/view/theme/default/template/extension/module/featured.twig
+CODE: <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 42
+CODE: </head>
+LINE: 45
+----------------------------------------------------------------
