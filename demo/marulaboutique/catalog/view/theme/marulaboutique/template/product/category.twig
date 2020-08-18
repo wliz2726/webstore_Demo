@@ -31,7 +31,7 @@
         <div class="col-sm-3">
           <ul>
             {% for category in categories %}
-            <li><a href="{{ category.href }}">{{ category.name }}</a></li>
+            <li class="subcategoria"><a href="{{ category.href }}" class="btn btn-secondary btn-sm">{{ category.name }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -54,7 +54,7 @@
         <div class="col-md-2 col-sm-6 hidden-xs">
           <div class="btn-group btn-group-sm">
             <!--<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="{{ button_list }}"><i class="fa fa-th-list"></i></button>-->
-            <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="{{ button_grid }}"><i class="fa fa-th"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default hidden-md hidden-lg hidden-xs" data-toggle="tooltip" title="{{ button_grid }}"><i class="fa fa-th"></i></button>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">

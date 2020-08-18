@@ -18,7 +18,7 @@ h1 {
 }
 
 h2{
-	color: :000000;
+	color: #DA4A5A;
 }
 
 #product-product h2{
@@ -2227,4 +2227,28 @@ letter-spacing: 2px;
 #cart-total {
 	color: #DE6665;
 }
+
+#list-left .btn-sm{
+	background-color: transparent;
+	color: #DA4A5A;
+	border: 1px solid #DA4A5A;
+	margin-bottom: 3px;
+}
+
+#list-left .btn-sm:hover{
+	background-color: #DA4A5A;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-bottom: 3px;
+}
+
+#list-left .subcategoria{
+	list-style: none;
+	display:table-cell;
+     padding-left:3px;
+     padding-right:3px;
+
+}
+
+
 
