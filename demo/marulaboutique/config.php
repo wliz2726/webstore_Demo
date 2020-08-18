@@ -1,14 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/webstore/demo/marulaboutique/');
+define('HTTP_SERVER', 'http://localhost/webstore_Demo/demo/marulaboutique/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/webstore/demo/marulaboutique/');
+define('HTTPS_SERVER', 'http://localhost/webstore_Demo/demo/marulaboutique/');
+
 
 // DIR
-define('DIR_APPLICATION', '/Applications/XAMPP/xamppfiles/htdocs/webstore/demo/marulaboutique/catalog/');
-define('DIR_SYSTEM', '/Applications/XAMPP/xamppfiles/htdocs/webstore/demo/marulaboutique/system/');
-define('DIR_IMAGE', '/Applications/XAMPP/xamppfiles/htdocs/webstore/demo/marulaboutique/image/');
+define('DIR_APPLICATION', '/Applications/XAMPP/xamppfiles/htdocs/webstore_Demo/demo/marulaboutique/catalog/');
+define('DIR_SYSTEM', '/Applications/XAMPP/xamppfiles/htdocs/webstore_Demo/demo/marulaboutique/system/');
+define('DIR_IMAGE', '/Applications/XAMPP/xamppfiles/htdocs/webstore_Demo/demo/marulaboutique/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
