@@ -242,7 +242,7 @@ body {
       /*letter-spacing: 2px;*/
       border-radius: 0;
       font-family: Montserrat, sans-serif;
-      opacity: 0.9;
+      /*opacity: 0.9;*/
     }
 
     .navbar li a,
@@ -253,8 +253,10 @@ body {
     .navbar-nav li a:hover,
     .navbar-nav li.active a {
       color: #FFF !important;
-      background-color: #000 !important;
+      background-color: #1883D3 !important;
+      border-radius: 25px;
     }
+
 
     .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -323,8 +325,8 @@ body {
 
     #home .carousel-caption .btn-outline-secondary {
       color: #fff;
-      border: 1px solid #1883D3;
-      background-color: transparent;
+      border: 1px solid #fff;
+      background-color: #06203F;
       border-radius: 40px;
       width: 281px;
       height: 64px;
@@ -338,7 +340,7 @@ body {
 
     #home .carousel-caption .btn:hover{
       color: #fff;
-      background-color: #06203F;
+      background-color: #1883D3;
       border-color: #fff;
     }
 
@@ -372,11 +374,197 @@ body {
 /*Mobile*/
  @media screen and (max-width: 767px) {
 
-        #myNavbar .nav {
+    #myNavbar .nav {
             padding-left: 0px;
           }
+
+    .navbar-nav > li > a {
+            padding-top: 18px;
+            padding-bottom: 18px;
+            line-height: 20px;
+          }
+
+    .navbar {
+            font-size: 16px !important;
       
+          }
+
+    #myNavbar{
+            opacity: 0.9;
+            background-color: rgb(11, 73, 173);
+          }
+
+    #home .carousel-caption{
+            bottom: 0px;
+          }
+
+
+    #home .carousel-caption .btn-outline-secondary{
+            margin-left: 0px;
+            float: none;
+            letter-spacing: 2px;
+            width: 268px;
+            height: 40px;
+            font-size: 10px;
+            padding: 13px 16px;
+
+          }
+
+    .btn-lg {
+            margin-bottom: 0px;
+          }  
+
+     #home .carousel-caption .btn-outline-secondary{
+            background-color: #06203F;
+     }     
+
+     #home .carousel-caption .btn:hover{
+              color: #fff;
+              background-color: #06203F;
+              border-color: #fff;
+           }
+
+
+    #home .carousel-caption h1{
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+            font-family: Montserrat;
+            margin-left: 0px;
+            text-transform: none;
+            font-weight: bold;
+          }    
+    #home .jumbotron {
+           margin-bottom: 0px;
+           }
+
+    #about .contenedor-blue .btn{
+            
+            padding: 11px 11px;
+            margin: 5px 10px 45px 0px;
+            font-size: 10px;
+          }
+
+
+    #about .contenedor-blue .about-h2{
+          font-size: 23px;
+          margin: 5px 9px 20px 25px;
+          padding-top: 44px;
+          font-weight: bold;
+          font-family: Montserrat;
+          color: #06203F;
+          float: left;
+          text-align: left;
+        }
+    #about .contenedor-blue .about-h4{
+          font-size: 14px;
+          margin: -1px 37px 15px 20px;
+          font-family: Montserrat;
+          color: #06203F;
+          text-align: left;
+        }
+    #about .contenedor-blue .about-p{
+          font-size: 14px;
+          margin: 3px 56px 9px 20px;
+          font-family: Montserrat;
+          font-weight: bold;
+          color: #06203F;
+          text-align: left;
+        }
+    #list-benefits .list-group-item{
+        padding: 10px 4px;
+        }
+
+    #portfolio .container-fluid{
+      padding: 40px 0px;
+
+      }
+
+    #demo .pr-demo{
+      font-size: 22px;
     }
+
+
+
+    #demo h4{
+      font-size: 12px;
+    }
+
+    #demo h2{
+      margin-bottom: 30px;
+    }
+
+    #demo  .btn-demo a{
+      font-size: 5px;
+      padding: 20px 40px;
+      font-weight: bold;
+    }
+
+    #demo  .btn-demo a{
+          font-size: 9px;
+          padding: 11px 16px;
+          font-weight: bold;
+}
+
+    #pricing .text-center .price{
+      font-size: 22px;
+    }
+
+
+     #pricing .text-center h4{
+      font-size: 12px;
+     }
+
+     #pricing .panel-body{
+      padding: 0px;
+     }
+
+     #pricing .panel-body .list-group-item{
+      margin-left: -22px;
+      padding: 5px 0px;
+     }
+
+     #pricing .panel-footer{
+      padding: 0px;
+     }
+
+     #pricing .price-pricing{
+      font-size: 22px;
+     }
+
+      #pricing .panel-body-p{
+        font-size: 10px;
+        margin: 0 0px 0px -40px;
+
+     }
+
+     #pricing .panel-footer .price-starter{
+      font-size: 10px;
+      margin: 0 0 18px;
+     }
+      .info-ws{
+        padding-top: 0px;
+        font-size: 11px;
+      }
+
+
+      #contact .form-group .h2-contact{
+        margin-top: 0px;
+      }
+
+      #footer .footer-big{
+        padding: 0px;
+      }
+
+
+       .navbar-nav li a:hover,
+        .navbar-nav li.active a {
+          color: #FFF !important;
+          background-color: #1883D3 !important;
+          border-radius: 0px 35px 35px 0px;
+    }
+
+}
 
 /*Desktop*/
      @media screen and (min-width: 768px) {
@@ -384,9 +572,18 @@ body {
         #myNavbar .nav {
             padding-left: 170px;
           }
+
       
     }
-   
+
+/* End Responsive Webstore*/
+
+
+
+
+   #demo  .btn-demo{
+    margin-bottom: 30px;
+   }
 
     #myNavbar input{
       margin: 9px;
@@ -438,6 +635,7 @@ body {
     #about .contenedor-blue{
       background-color: #E7EDF2;
       border-radius: 25px;
+      margin: -16px;
       
     }
 
@@ -630,6 +828,8 @@ border-color: transparent;
   color: #06203F;
 font-family: Montserrat;
 font-weight: bold;
+margin-bottom: 30px;
+
 }
 
 /* Footer */
@@ -1025,26 +1225,29 @@ margin-top: 15px;
   position: absolute;
   top: 0.7em;
   left: 0.1em;
-  background-color: #444;
+  background-color: #fff;
   transform:rotate(0deg);
   -ms-transform:rotate(0deg); /* IE 9 */
   -webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+  border-radius: 30px;
 
 }
 .btn-menu-w span:before {
   position: absolute;
-  top: -0.6em;
+  top: -0.5em;
   left: 0;
   content: ' ';
-  background-color: #444;
+  background-color: #fff;
+  border-radius: 30px;
   
 }
 .btn-menu-w span:after {
   position: absolute;
-  top: 0.6em;
+  top: 0.5em;
   left: 0;
   content: ' ';
-  background-color: #444;
+  background-color: #fff;
+  border-radius: 30px;
 }
 
 
@@ -1085,14 +1288,16 @@ opacity: 1;
   width: 23px;
   height: 4px;
   
-  -moz-transition: all .5s cubic-bezier(0.5,-0.6,0.19,1);  
-  -o-transition: all .5s cubic-bezier(0.5,-0.6,0.19,1);  
-  -webkit-transition: all .5s cubic-bezier(0.5,-0.6,0.19,1);
-  transition: all .5s cubic-bezier(0.5,-0.6,0.19,1);
+  -moz-transition: all .5s cubic-bezier(0.9,-0.6,0.19,1);  
+  -o-transition: all .5s cubic-bezier(0.9,-0.6,0.19,1);  
+  -webkit-transition: all .5s cubic-bezier(0.9,-0.6,0.19,1);
+  transition: all .5s cubic-bezier(0.9,-0.6,0.19,1);
 }
-
-
 
 }
 /* end button responsive animado*/
+
+
+
+
 
