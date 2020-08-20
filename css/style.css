@@ -85,7 +85,7 @@ body {
     }
 
     #logo {
-      width: 5em;
+      width: 8em;
       transform: scale(1.6);
       margin-left: 19px;
     }
@@ -243,6 +243,8 @@ body {
       border-radius: 0;
       font-family: Montserrat, sans-serif;
       /*opacity: 0.9;*/
+      min-height: 65px;
+
     }
 
     .navbar li a,
@@ -253,7 +255,7 @@ body {
     
     .navbar-nav li.active a {
       color: #FFF !important;
-      background-color: #1883D3 !important;
+      background-color: transparent !important;
       border-radius: 25px;
     }
 
@@ -325,7 +327,6 @@ body {
 
     #home .carousel-caption .btn-outline-secondary {
       color: #fff;
-      border: 1px solid #fff;
       background-color: #06203F;
       border-radius: 40px;
       width: 281px;
@@ -374,6 +375,12 @@ body {
 /*Mobile*/
  @media screen and (max-width: 767px) {
 
+    #logo {
+            width: 5em;
+            transform: scale(1.6);
+            margin-left: 19px;
+          }
+
     #myNavbar .nav {
             padding-left: 0px;
           }
@@ -395,7 +402,16 @@ body {
           }
 
     #home .carousel-caption{
-            bottom: 0px;
+            bottom: 40px;
+            position: absolute;
+            right: 0%;
+            left: 0%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0,0,0,.6);
           }
 
 
@@ -409,6 +425,8 @@ body {
             padding: 13px 16px;
 
           }
+
+
 
     .btn-lg {
             margin-bottom: 0px;
@@ -427,12 +445,13 @@ body {
 
     #home .carousel-caption h1{
             color: #fff;
-            font-size: 13px;
+            font-size: 20px;
             text-align: center;
             font-family: Montserrat;
             margin-left: 0px;
             text-transform: none;
             font-weight: bold;
+            padding-bottom: 20px;
           }    
     #home .jumbotron {
            margin-bottom: 0px;
@@ -472,7 +491,7 @@ body {
           text-align: left;
         }
     #list-benefits .list-group-item{
-        padding: 10px 4px;
+        padding: 10px 15px;
         }
 
     #portfolio .container-fluid{
@@ -512,7 +531,7 @@ body {
 
 
      #pricing .text-center h4{
-      font-size: 16px;
+      font-size: 12px;
      }
 
      #pricing .panel-body{
@@ -529,7 +548,7 @@ body {
      }
 
      #pricing .price-pricing{
-      font-size: 22px;
+      font-size: 24px;
      }
 
       #pricing .panel-body-p{
@@ -568,6 +587,8 @@ body {
       padding: 10px;
     }
 
+    
+
 }
 
 /*Desktop*/
@@ -577,6 +598,19 @@ body {
             padding-left: 170px;
           }
 
+        #myNavbar .navbar-nav > li > a {
+            padding-top: 25px;
+            padding-bottom: 2px;
+          }
+
+          #about .col-md-offset-2{
+            margin-top: 10.667%;
+          }
+          
+
+          #demo .col-md-offset-2{
+            margin-top: 13.667%;
+          }
       
     }
 
@@ -694,7 +728,7 @@ font-size: 14px;
 font-family: Montserrat;
 color: #06203F;
 text-align: left;
-padding: 10px 70px;
+padding: 10px 100px;
 }
 
 
@@ -1234,6 +1268,9 @@ margin-top: auto;
 margin-right: auto;
 margin-right: 15px;
 margin-top: 15px;
+margin-left: 15px;
+margin-bottom: 10px;
+
 
 }
 
