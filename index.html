@@ -13,11 +13,18 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+<!--CSS Bootstrao 4 para usarlo para el formulario de contacto
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+
+<!--CSS Bootstrao 4 para usarlo para el formulario de contacto-->
+
+
+<!--JS Bootstrao 4 para usarlo para el formulario de contacto-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!--End JS Bootstrao 4 para usarlo para el formulario de contacto-->
 
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
@@ -525,26 +532,25 @@
               <h4 class=" h4-contact">Queremos ayudarte, cuéntanos de tu proyecto</h4>
           </div>
 
-        <form method="POST" action="php/index.php" class="needs-validation" novalidate >
+        <form method="POST" action="php/index.php" class="needs-validation" novalidate>
             <div class="col-sm-12 form-group">
-              
-              <input type="text" class="form-control"  name="nombre" placeholder="Nombre*" required >
+              <label for="validarNombre"></label>
+            <input type="text" class="form-control" id="validarNombre" name="validarNombre" placeholder="Nombre*" required>
             </div>
             <div class="col-sm-12 form-group">
-              
-              <input type="text" class="form-control"  name="correo" placeholder="Email*" required >
+              <label for="validarEmail"></label>
+            <input type="email" class="form-control" id="validarEmail" name="validarEmail" placeholder="Email*" required>
             </div>
             <div class="col-sm-12 form-group">
-              
-              <input type="text" class="form-control" name="telefono" placeholder="Teléfono" max="999999999">
+              <label for="validarTelefono"></label>
+            <input type="tel" class="form-control" id="validarTelefono" name="validarTelefono" value="1-(555)-555-5555" required placeholder="Teléfono*" max="99999999999">
             </div>
             <div class="col-sm-12 form-group">
-              
-              <textarea class="form-control" rows="4" name="mensaje" placeholder="Mensaje*" required style=" height: 96px;padding: 19px 20px;"></textarea>
+              <label for="validationMensaje"></label>
+        <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" placeholder="Mensaje*"  required style=" height: 96px;padding: 19px 20px;"></textarea>
             </div>
             <div class="col-sm-12 form-group text-center">
-              <input   type="submit" value="ENVIAR" id="boton" style="background-color: #1883D3;font-size: 18px;font-family: Montserrat;padding: 6px 20%;border-radius: 35px;" class="btn btn-success">
-              <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+              <input   class="btn btn-primary" type="submit" name="submit" value="ENVIAR"  style="background-color: #1883D3;font-size: 18px;font-family: Montserrat;padding: 6px 20%;border-radius: 35px;" >
             </div>
         </form>
         </div>
@@ -735,6 +741,8 @@
 }
   </script>
 
+
+
   <script>
 $(document).ready(function(){
     // Initialize Tooltip
@@ -765,6 +773,8 @@ $(document).ready(function(){
 }) 
 </script>
 
+
+
 <script>
   // Highlight the top nav as scrolling occurs
 $(function () {
@@ -774,6 +784,7 @@ $(function () {
   });
 });
 </script>
+
 
 
 
@@ -835,6 +846,7 @@ $(function () {
 </script>
 
 
+
 <!--carousel-->
 <script>
          $(document).ready(function() {
@@ -853,19 +865,16 @@ responsive: {
 items: 4
 }
 }
-
-
-
-
-
-
 });
 
 });
 </script>
+<!--End carousel-->
+
 
 
 <script type="text/javascript">
+  //Menu gusano
   var text = document.getElementById("text");
 function toggleClass(element, className){
     if (!element || !className){
@@ -891,6 +900,8 @@ function toggleClass(element, className){
 </script>
 
 
+
+<!-- JS de formulario de contacto-->
   <script>
     (function() {
         'use strict';
@@ -908,6 +919,8 @@ function toggleClass(element, className){
         }, false);
     })();
 </script>
+
+<!-- End JS de formulario de contacto-->
 
 
 
