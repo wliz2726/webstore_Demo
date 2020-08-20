@@ -250,7 +250,7 @@ body {
       color: #fff !important;
     }
 
-    .navbar-nav li a:hover,
+    
     .navbar-nav li.active a {
       color: #FFF !important;
       background-color: #1883D3 !important;
@@ -993,7 +993,19 @@ margin-bottom: 30px;
   color:white;
   padding:5px;
   margin:2px 0 2px 0;
-  font-size:1.5em
+  font-size:24px;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+.title_text2{
+  display:inline-block;
+  /*background-color:rgba(21, 15, 15, 0.9);*/
+  color:white;
+  padding:5px;
+  margin:2px 0 2px 0;
+  font-size:1.5em;
+  font-family: Montserrat;
 }
  .header-text{
   position: absolute;
