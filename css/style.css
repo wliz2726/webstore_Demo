@@ -587,7 +587,7 @@ body {
       padding: 10px;
     }
 
-    
+
 
 }
 
@@ -1351,6 +1351,8 @@ opacity: 1;
 /* end button responsive animado*/
 
 
-
+#contact .red {
+    color: red;
+}
 
 

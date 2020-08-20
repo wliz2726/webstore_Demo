@@ -1,3 +1,31 @@
+
+
+
+    <? php
+
+    $destino="wliz2726@gmail.com";
+    $nombre= $_POST["nombre"];
+    $correo= $_POST["correo"];
+    $telefono= $_POST["telefono"];
+    $mensaje= $_POST["mensaje"];
+
+    $contenido= "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono: " .$telefono . "\nMensaje: " .$mensaje;
+
+    mail($destino, "Contacto", $contenido);
+
+    header("Location:index.html")
+
+    /* Enviamos el Formulario*/
+    if (mail($destino,  $contenido, $header)) {
+        echo "<center><h2>El E-Mail se ha enviado correctamente!</h2></center>";
+    } else {
+        echo "<center><h2>Ops ! El E-Mail ha fallado!</h2></center>S";
+    }
+
+    ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,8 +84,8 @@
         <span class="icon-bar"></span>
       </button>-->
         <a class="navbar-brand" href="#home">
-				<img id="logo" src="Image/Webstore-Logo.png" />
-			</a>
+                <img id="logo" src="Image/Webstore-Logo.png" />
+            </a>
       </div>
 
 
@@ -914,3 +942,6 @@ function toggleClass(element, className){
 </body>
 
 </html>
+
+
+
