@@ -564,6 +564,12 @@ body {
       .info-ws{
         padding-top: 0px;
         font-size: 14px;
+        text-decoration: none;
+      }
+
+      #pricing .info-ws a{
+       
+        text-decoration: none;
       }
 
 
