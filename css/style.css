@@ -593,9 +593,17 @@ body {
       padding: 10px;
     }
 
-
+    
 
 }
+
+/*Tablet*/
+     @media screen and (min-width: 767px) {
+
+        #footer .img-fluid{
+      width: 60%;
+    }
+  }
 
 /*Desktop*/
      @media screen and (min-width: 768px) {
@@ -730,11 +738,11 @@ color: #06203F;
   background-color: transparent;
 border: 1px solid transparent;
 font-weight: bold;
-font-size: 14px;
+font-size: 18px;
 font-family: Montserrat;
 color: #06203F;
 text-align: left;
-padding: 10px 100px;
+padding: 10px 80px;
 }
 
 
