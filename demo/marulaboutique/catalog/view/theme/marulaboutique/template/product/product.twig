@@ -17,7 +17,7 @@
       <div class="row"> {% if column_left or column_right %}
         {% set class = 'col-sm-6' %}
         {% else %}
-        {% set class = 'col-sm-8' %}
+        {% set class = 'col-sm-6' %}
         {% endif %}
         <div class="{{ class }}"> {% if thumb or images %}
           <ul class="thumbnails">
@@ -113,7 +113,7 @@
         {% if column_left or column_right %}
         {% set class = 'col-sm-6' %}
         {% else %}
-        {% set class = 'col-lg-4' %}
+        {% set class = 'col-lg-6' %}
         {% endif %}
         <div class="{{ class }}">
           <div class="btn-group">
@@ -360,7 +360,7 @@
         {% elseif column_left or column_right %}
         {% set class = 'col-xs-6 col-md-4' %}
         {% else %}
-        {% set class = 'col-md-6 col-md-4' %}
+        {% set class = 'col-md-4 col-md-4' %}
         {% endif %}
         <div class="{{ class }}">
           <div class="product-thumb transition">

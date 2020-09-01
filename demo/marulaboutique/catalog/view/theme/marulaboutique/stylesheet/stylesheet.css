@@ -259,7 +259,7 @@ div.required .control-label:before {
 /* logo */
 #logo {
 	margin: auto;
-    	text-align: center;
+    text-align: center;
 	width: 200px;
 	
 }
@@ -313,9 +313,9 @@ h5.title-footer{
     padding-left: 2em;
 }
 #search .input-lg {
-	height: 30px;
+	height: 24px;
 	line-height: 20px;
-	padding: 0 10px;
+	padding: 0 50px;
 	font-size: 12px;
 	border-radius: 25px;
 
@@ -329,7 +329,7 @@ h5.title-footer{
 	background-color: transparent;
 	color: #DE6665;
 	height: 30px;
-	margin: 0px 0px 0px -41px;
+	margin: -3px 0px 0px -41px;
 }
 
 #search .btn-lg:hover {
@@ -429,6 +429,8 @@ h5.title-footer{
 }
 
 
+
+
 /* Animate Border Bottom Menu*/
 #menu .dropdown-toggle::after {
 	content: '';
@@ -436,11 +438,13 @@ h5.title-footer{
     width: 0;
     height: 3px;
     background: #DA4A5A;
+    color: #DA4A5A;
 }
 
 #menu .dropdown-toggle:hover::after {
 	width: 100%;
     transition: width .4s;
+    color: #DA4A5A;
 }
 
 #menu .dropdown-menu {
@@ -654,6 +658,10 @@ h5.title-footer{
 			margin: 70px 0px 10px 0px;
 		}
 
+#product-search .breadcrumb{
+			margin: 70px 0px 10px 0px;
+		}
+
 	}
 
 @media (max-width: 767px) {
@@ -789,7 +797,7 @@ p.powered-center{
 
 
 .breadcrumb {
-	margin: 140px 0px 10px 0px;
+	margin: 145px 0px 10px 0px;
 	padding: 8px 0;
 	border: 1px solid transparent;
 	color: transparent;
@@ -1319,7 +1327,7 @@ div.button-group{
 
 	/* Slideshow fixed */
 #slideshow-fixed .swiper-container {
-	margin-top: 120px;
+	margin-top: 125px;
 }
 /*End Slideshow fixed */
 }
@@ -1842,7 +1850,7 @@ cursor: pointer;
 
           /* Slideshow fixed */
 #slideshow-fixed .swiper-container {
-	margin-top: 120px;
+	margin-top: 125px;
 }
 /*End Slideshow fixed */
 
@@ -1981,7 +1989,7 @@ cursor: pointer;
 
 @media (min-width: 440px) {
 #product-category .breadcrumb {
-    margin: 174px 0px 5px 0px;
+    margin: 145px 0px 5px 0px;
     padding: 8px 0;
     border: 1px solid transparent;
     color: transparent;
@@ -1992,7 +2000,7 @@ cursor: pointer;
 
 /* CSS de ipad customizar */
 #product .form-control{
-	width: 100%;
+	width: 45%;
 
 }
 

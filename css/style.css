@@ -460,10 +460,15 @@ body {
     #about .contenedor-blue .btn{
             
             padding: 11px 11px;
-            margin: 5px 10px 45px 0px;
             font-size: 10px;
           }
+    #about .top-image{
+      padding-top: 30px;
+    }
 
+    #list-benefits .list-group-item{
+      font-size: 14px;
+    }
 
     #about .contenedor-blue .about-h2{
           font-size: 23px;
@@ -591,6 +596,7 @@ body {
 
     .container-fluid{
       padding: 10px;
+      padding-top: 30px;
     }
 
     
