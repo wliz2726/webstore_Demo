@@ -2,9 +2,9 @@
 if (isset($_POST['submit'])) {
     //ini_set( 'display_errors', 1 ); # REMOVE // FOR DEBUG
     //error_reporting( E_ALL ); # REMOVE // FOR DEBUG
-    $from = "info@westore.do"; // Email con el dominio del Hosting para evitar SPAM
+    $from = "wliz2726@gmail.com"; // Email con el dominio del Hosting para evitar SPAM
     $fromName = "Webstore"; // Nombre que saldrá en el email recibido
-    $to = "bduran@westore.do"; // Dirección donde se enviará el formulario
+    $to = "info@westore.do"; // Dirección donde se enviará el formulario
     $subject = "Solicitud de Cliente"; // Asunto del Formulario
 
     /* Componemos el mensaje */
@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
     $headers .= "X-Priority: 3\r\n";
     $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
 
-    header("Location:index.html");
+    
 
     
 }
