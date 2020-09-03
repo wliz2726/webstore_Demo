@@ -8,7 +8,7 @@ $to = "info@webstore.do"; // Nuestro correo de contacto
 // recogeremos los datos del formulario
 $nombre = $_POST['validarNombre'];
 $email = $_POST['validarEmail'];
-$asunto = $_POST['validarasunto'];
+$asunto = "Solicitud de Cliente";
 $telefono = $_POST['validarTelefono'];
 $mensaje = nl2br($_POST['validationMensaje']);
 
