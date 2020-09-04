@@ -247,6 +247,24 @@ body {
 
     }
 
+    .navbar-1 {
+      margin-bottom: 0;
+      background-color: transparent;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      /*letter-spacing: 2px;*/
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      /*opacity: 0.9;*/
+      min-height: 65px;
+      background-color: #06203F;
+
+    }
+
+
+
     .navbar li a,
     .navbar .navbar-brand {
       color: #fff !important;
@@ -1395,4 +1413,82 @@ background-position: right calc(1.375em + .1875rem) center;
 background-size: calc(.75em + .375rem) calc(.75em + .375rem);
 }
 
+#pricing .metodo_de_pago{
+  width: 80%;
+display: inline-grid;
+
+}
+
+#why .pr-detail{
+  color: #06203F;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#why .pr-detail-2{
+  color: #0071BC;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#why .p-detail{
+
+  font-size: 16px;
+  color: #06203F;
+  font-family: Montserrat;
+  
+}
+
+#why .link-nosotros{
+  color: #FF5757;
+  font-size: 12px;
+  font-family: Montserrat;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+}
+
+#how .panel-default > .panel-heading{
+  border-color: transparent;
+}
+
+#how .escalera1{
+  margin: 0 0 20px;
+}
+#how .escalera2{
+  margin: 0 0 72px;
+}
+#how .escalera3{
+  margin: 0 0 52px;
+}
+
+#how h2{
+  color: #06203F;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+
+
+
+#how .panel {
+      
+      border-radius: 42px !important;
+      
+    }
+
+    #how .panel-footer2{
+      
+      border-radius: 42px !important;
+      
+    }
 
